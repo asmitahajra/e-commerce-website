@@ -1,0 +1,39 @@
+/* .tableItems {
+    table-layout: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+} */
+
+.cart-table {
+    margin:auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.category-header {
+    background-color: darkgray;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.table-header {
+    background-color:gray;
+}
+
+td {
+    padding: 1rem;
+}
+
+th {
+    padding: 1rem;
+}

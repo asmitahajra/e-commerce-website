@@ -1,0 +1,30 @@
+.order-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-page >h2 {
+    padding: 1rem;
+}
+
+.order-table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.order-table-header{
+    background-color: gray;
+}
+
+.order-table-container .cart-table #total{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    
+}
+
+/* .cart-table>p {
+    justify-content: flex-end;
+} */

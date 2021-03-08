@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 0.4rem;
+}
+
+.all-orders-and-cart {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-orders-and-cart >div,a,img {
+    margin: 6px;
+}
+
+.cart {
+    width: 5rem;
+    height: 5rem;
+}
+
+.items-in-basket {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.eshopper {
+    font-size: 20px;
+}
+
+.items-in-basket {
+    background-color: gray;
+}

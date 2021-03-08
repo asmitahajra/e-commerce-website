@@ -1,0 +1,7 @@
+/* <Form style={{ display: 'flex', flexDirection: 'column' }}> */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

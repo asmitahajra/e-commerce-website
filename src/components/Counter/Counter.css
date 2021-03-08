@@ -1,0 +1,11 @@
+.counter {
+    display: flex
+}
+
+button {
+    margin: 10px 10px;
+}
+
+.inBasket {
+    background-color:darkkhaki;
+}

@@ -1,0 +1,18 @@
+.product_card {
+    box-shadow: 10px 10px 5px grey;
+    padding: 8px;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: fit-content;
+}
+
+.image {
+    width: 10rem;
+    height: 10rem;
+}
+
+.check {
+    padding: 8px;
+    background-color: lightgray;
+}
