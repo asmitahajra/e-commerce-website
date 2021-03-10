@@ -1,0 +1,21 @@
+//colors
+$primary-backgroud-color: purple;
+
+@mixin custom-mixin {
+    background-color: beige;
+    color: beige;
+}
+
+@mixin media-mixin($width)
+{
+    @media only screen and (max-width:$width)
+    {
+        @content
+    }
+}
+
+.button-outline {
+    outline-style: groove; 
+}
+
+//breakpoints

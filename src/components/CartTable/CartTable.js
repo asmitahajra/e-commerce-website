@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './CartTable.css';
 
 const CartTable = ({ cartItems }) => (
-  <div>
+  <div data-testid="cart-table">
     <div className="cart-table-container">
       <table className="cart-table">
         <thead className="table-header">
@@ -19,8 +19,8 @@ const CartTable = ({ cartItems }) => (
           {cartItems.map((cartItem) => (
             <tr key={cartItem.id}>
               <td>
-                {cartItem.company}
-                <br />
+                {/* {cartItem.company} */}
+                {/* <br /> */}
                 {cartItem.name}
               </td>
               <td>{cartItem.price}</td>

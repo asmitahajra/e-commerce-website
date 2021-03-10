@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart should match snapshot 1`] = `
+<div>
+  <div
+    class="cart-page"
+  >
+    <div
+      class="cart-table-body"
+    >
+      <h1>
+        Your Basket (
+        2
+         
+        items)
+      </h1>
+      <hr />
+      <div
+        class="tableItems"
+      >
+        <div
+          data-testid="cart-table"
+        >
+          <div
+            class="cart-table-container"
+          >
+            <table
+              class="cart-table"
+            >
+              <thead
+                class="table-header"
+              >
+                <tr
+                  class=""
+                >
+                  <th>
+                    ITEM DESCRIPTION
+                  </th>
+                  <th>
+                    UNIT PRICE
+                  </th>
+                  <th>
+                    QUANTITY
+                  </th>
+                  <th>
+                    SUBTOTAL
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    class="category-header"
+                    colspan="4"
+                  >
+                    Fruits and Vegetables
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    apple
+                  </td>
+                  <td>
+                    20
+                  </td>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    20
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    banana
+                  </td>
+                  <td>
+                    30
+                  </td>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    30
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="checkout-continue-container"
+    >
+      <a
+        href="/"
+      >
+        <button
+          class="continue-shopping"
+          type="button"
+        >
+          Continue Shopping
+        </button>
+      </a>
+      <div
+        class="checkout-container"
+      >
+        <div
+          class="total-value"
+        >
+          <h2>
+            TOTAL
+             
+            Rs.
+            50
+          </h2>
+          <hr />
+        </div>
+        <a
+          href="/checkout"
+        >
+          <button
+            class="checkout"
+            type="button"
+          >
+            checkout
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

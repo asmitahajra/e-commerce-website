@@ -1,0 +1,16 @@
+@import '../../styles/index.scss';
+
+.counter {
+    display: flex;
+    button {
+        margin: 1rem 1rem;
+        @extend .button-outline;
+    }
+    .inBasket {
+        // background-color: $primary-backgroud-color;
+        background-color:darkkhaki;
+    }
+    // p {
+    //     @include custom-mixin;
+    // }
+}

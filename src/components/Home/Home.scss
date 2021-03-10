@@ -1,0 +1,35 @@
+@import '../../styles/index.scss';
+
+$moto-breakpoint:28rem;
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+// @media (max-width: $moto-breakpoint) {
+//     .products {
+//         justify-content: center;
+//     }
+// }
+
+// @media screen and (max-width: $moto-breakpoint) {
+//     .products {
+//         justify-content: center;
+//     }
+// }
+
+@include media-mixin($moto-breakpoint)
+{
+    .products {
+        justify-content: center;
+    }
+}

@@ -7,3 +7,45 @@
   ],
   "workbench.editor.enablePreview": true
  }
+
+// {
+//   "editor.tabSize": 2,
+//   "editor.quickSuggestions": true,
+//   "editor.fontSize": 16,
+//   "editor.tabCompletion": "on",
+//   "editor.cursorStyle": "line",
+//   "explorer.openEditors.visible": 0,
+//   "workbench.colorTheme": "Palenight Theme",
+//   "editor.fontFamily": "'Cascadia Code PL'",
+//   "debug.console.fontFamily": "'Cascadia Code PL'",
+//   "scm.inputFontFamily": "'Cascadia Code PL'",
+//   "terminal.integrated.fontFamily": "'Cascadia Code PL'",
+//   "[typescript]": {
+//     "editor.defaultFormatter": "vscode.typescript-language-features"
+//   },
+//   "[javascript]": {
+//     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+//   },
+//   "editor.fontWeight": "300",
+//   "terminal.integrated.fontWeight": "300",
+//   "editor.fontLigatures": true,
+//   "workbench.iconTheme": "material-icon-theme",
+//   "editor.lineHeight": 35,
+//   "eslint.alwaysShowStatus": true,
+//   "eslint.format.enable": true,
+//   "editor.formatOnSave": true,
+//   "editor.formatOnType": true,
+//   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+//   "editor.formatOnPaste": true,
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll": true,
+//     "source.organizeImports": true
+//   },
+//   "terminal.integrated.fontSize": 16,
+//   "http.proxyAuthorization": null,
+//   "eslint.codeAction.showDocumentation": {
+//     "enable": true
+//   },
+//   "eslint.lintTask.enable": true,
+//   "window.zoomLevel": 1,
+// }

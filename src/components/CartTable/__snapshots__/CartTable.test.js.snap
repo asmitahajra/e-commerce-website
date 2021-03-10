@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartTable should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="cart-table"
+  >
+    <div
+      class="cart-table-container"
+    >
+      <table
+        class="cart-table"
+      >
+        <thead
+          class="table-header"
+        >
+          <tr
+            class=""
+          >
+            <th>
+              ITEM DESCRIPTION
+            </th>
+            <th>
+              UNIT PRICE
+            </th>
+            <th>
+              QUANTITY
+            </th>
+            <th>
+              SUBTOTAL
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td
+              class="category-header"
+              colspan="4"
+            >
+              Fruits and Vegetables
+            </td>
+          </tr>
+          <tr>
+            <td>
+              apple
+            </td>
+            <td>
+              20
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              40
+            </td>
+          </tr>
+          <tr>
+            <td>
+              banana
+            </td>
+            <td>
+              30
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              60
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

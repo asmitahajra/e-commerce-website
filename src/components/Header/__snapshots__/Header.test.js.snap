@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<div>
+  <div
+    class="header-light"
+  >
+    <a
+      class="eshopper"
+      href="/"
+    >
+      <b>
+        E-Shopper
+      </b>
+    </a>
+    <div
+      class="all-orders-and-cart"
+    >
+      <a
+        class="all-orders"
+        href="/allOrders"
+      >
+        All Orders
+      </a>
+      <img
+        alt="cart-logo"
+        class="cart"
+        data-testid="cart-img"
+        src="../assets/images/cart.jpeg"
+      />
+      <div
+        class="items-in-basket"
+      >
+        <a
+          href="/cart"
+        >
+          <div>
+            My Basket
+            <div>
+              0
+               
+              items
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

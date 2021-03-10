@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product should match snapshot 1`] = `
+<div>
+  <div
+    class="product_card_light"
+    data-testid="counter"
+  >
+    <div
+      class="details"
+    >
+      <img
+        alt="apple"
+        class="image"
+        data-testid="card-img"
+        src="apple.jpg"
+      />
+      <p>
+        FRSHO
+      </p>
+      <p>
+        <b>
+          apple
+        </b>
+      </p>
+      <p>
+        1 kg
+      </p>
+    </div>
+    <div
+      class="check"
+    >
+      <p>
+        <b>
+          MRP
+           
+          20
+          /-
+        </b>
+      </p>
+      <div
+        class="counter"
+      >
+        <button
+          style="background: white; color: black;"
+          type="button"
+        >
+          +
+        </button>
+        <p
+          class="inBasket"
+          style="background: gray;"
+        >
+          1
+           
+          in Basket
+        </p>
+        <button
+          style="background: white; color: black;"
+          type="button"
+        >
+          -
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import './Order.css';
+import './Order.scss';
 import PropTypes from 'prop-types';
 import CartTable from '../CartTable/CartTable';
 
